@@ -1,0 +1,29 @@
+body {
+    background: #bde0fe;
+    cursor: url('cat-cursor.png') 16 16, auto;
+}
+
+.title {
+    font-size: 200px;
+    font-family: "Helvetica";
+    text-align: center;
+}
+
+.poem {
+    font-size: 50px;
+    font-family: "Helvetica";
+    text-align: center;
+    line-height: 35px;
+    padding-bottom: 50px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+::selection {
+    background-color: #f7e1d7;
+    color: #ef233c;
+}
